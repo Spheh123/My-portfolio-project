@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sphelele Chavula | Junior Frontend Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sphelele Chavula</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container text-center py-4">
+            <h1 class="display-5 fw-bold">Hi, I'm Sphelele Chavula</h1>
+            <p class="lead">Junior Frontend Developer from Johannesburg, South Africa</p>
+            <p class="text-muted">Currently studying and building my skills</p>
+            <a href="projects.html" class="btn btn-primary mt-3">See My Projects</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">My Current Skills</h2>
+            <div class="row g-4">
+                <!-- Core Skills -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Core Web</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-primary">HTML5</span>
+                                <span class="badge bg-primary">CSS3</span>
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-primary">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Frameworks</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-success">Bootstrap</span>
+                                <span class="badge bg-success">React Basics</span>
+                                <span class="badge bg-success">jQuery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Tools</h3>
+                            <div class="skills-list">
+                                <span class="badge bg-info">Git/GitHub</span>
+                                <span class="badge bg-info">VS Code</span>
+                                <span class="badge bg-info">Chrome DevTools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="learning-section mt-5 text-center">
+                <h3>Currently Learning</h3>
+                <div class="d-flex justify-content-center flex-wrap gap-2 mt-3">
+                    <span class="badge bg-warning text-dark">Advanced JavaScript</span>
+                    <span class="badge bg-warning text-dark">React</span>
+                    <span class="badge bg-warning text-dark">Node.js Basics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-light">
+        <div class="container text-center">
+            <p class="mb-1">Sphelele Chavula &copy; <span id="year"></span></p>
+            <p class="text-muted small">Junior Frontend Developer in Training</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple JS to show current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
