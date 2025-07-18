@@ -78,3 +78,38 @@ body {
         padding: 50px 0;
     }
 }
+/* Projects Page Specific Styles */
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.card-title {
+    color: #0d6efd;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    margin-bottom: 1.25rem;
+}
+
+.more-projects .card {
+    border: 2px dashed #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.more-projects .card-body {
+    padding: 2rem;
+}
+
+/* GitHub card specific */
+.btn-outline-dark {
+    border-color: #212529;
+    color: #212529;
+}
+
+.btn-outline-dark:hover {
+    background-color: #212529;
+    color: white;
+}
